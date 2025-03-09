@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.navbar .links ul{
+    display: flex;
+    gap: 15px;
+}
+.navbar .links ul li{
+    font-size: 18px;
+    font-weight: 600;
+}
+.navbar .button button{
+    padding: 0.8rem 2.6rem;
+    border: none;
+    background: #2aaa8a;
+    color: #fff;
+    border-radius: 5px;
+}
