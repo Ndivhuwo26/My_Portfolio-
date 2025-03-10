@@ -1,0 +1,83 @@
+/* Work Section Styles */
+.work_list {
+    margin-top: 150px;
+    padding: 20px;
+}
+
+/* Section Header */
+.work_header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Grid Container */
+.work_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Work Item Box */
+.work_item {
+    background: #232324;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.work_item:hover {
+    transform: scale(1.05);
+}
+
+/* Images */
+.work_item img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Title */
+.work_item h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Links */
+.work_links {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icon_link {
+    text-decoration: none;
+    color: #fff;
+    background: #232324;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.icon_link:hover {
+    background: #ff9900;
+}
+
+.icon_link svg {
+    fill: white;
+}
