@@ -4,26 +4,26 @@
 
 }
 .hero_top{
-    display: flex;
+    display:flex;
     gap: 10px;
     justify-content: space-between;
 }
 .hero_left{
-    max-width: 50%;
-    margin-top: 100px;
+    max-width:50%;
+    margin-top:100px;
 }
 .hero_left h2{
-    font-size: 35px;
+    font-size:35px;
 }
 .hero_left h1{
     font-size: 60px;
 }
 .hero_left h1 span{
-    color: #FF6B6B;
+    color:#FF6B6B;
 }
 .hero_left p{
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top:15px;
+    font-size:20px;
     color: #666;
 }
 .hero_right{
@@ -37,4 +37,54 @@
 }
 .hero_right img:hover{
     transform: scale(1.1);
+}
+.hero_left .hero_buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+}
+.hero_left .hero_buttons button{
+    border: none;
+    background: #2aaa8a;
+    color: #fff;
+    padding: 1rem 2.1rem;
+    border-radius: 5px;
+}
+.hero_left .hero_buttons button:nth-child(2){
+    background: transparent;
+    border: 1px solid #2aaa8a;
+}
+.hero_left .hero_buttons button:nth-child(2):hover{
+    background: #2aaa8a;
+    border: none;
+}
+.hero_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #232334;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero_info {
+    text-align: center;
+    flex: 1;
+}
+
+.hero_info h1 {
+    font-size: 40px;
+    color: #FF6B6B;
+}
+
+.hero_info p {
+    font-size: 18px;
+    color: #ccc;
 }
